@@ -1,0 +1,18 @@
+/* Strings */
+.strings__inner {
+	min-width: 30em;
+}
+
+.strings__body {
+	fill: #572e08;
+}
+
+.strings__string-hover {
+	pointer-events: visible;
+	fill: none;
+}
+
+.strings__string {
+	stroke-width: 2px;
+	stroke: rgb(0, 0, 0);
+}
