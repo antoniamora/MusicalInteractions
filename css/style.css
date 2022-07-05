@@ -160,7 +160,7 @@ a:focus {
 	font-weight: normal;
 	max-width: 430px;
 	margin: 1vh 0 1.25em 0;
-	padding: 0 1em;
+	padding: 20px;
 	color: #38383c;
 }
 
@@ -218,7 +218,7 @@ a:focus {
 	pointer-events: none;
 }
 
-.content__inner--fheight {
+.content__inner--height {
 	height: 60vh;
 }
 
