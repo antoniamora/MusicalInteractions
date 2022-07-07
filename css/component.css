@@ -1,3 +1,43 @@
+/* Common styles */
+
+.pricing {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-webkit-justify-content: center;
+	justify-content: center;
+	width: 100%;
+	margin: 0 auto 3em;
+}
+
+.pricing__item {
+	position: relative;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-direction: column;
+	flex-direction: column;
+	-webkit-align-items: stretch;
+	align-items: stretch;
+	text-align: center;
+	-webkit-flex: 0 1 330px;
+	flex: 0 1 330px;
+}
+
+.pricing__feature-list {
+	text-align: left;
+}
+
+.pricing__action {
+	color: inherit;
+	border: none;
+	background: none;
+}
+
+.pricing__action:focus {
+	outline: none;
+}
+
 /* Dawa */
 .pricing--dawa .pricing__item {
 	padding: 0 2em;
@@ -14,7 +54,7 @@
 	font-size: 3.75em;
 	line-height: 1;
 	margin: 1em 0 0.65em;
-	font-family: 'Homemade Apple', cursive;
+	font-family: 'Mansalva', cursive;
 }
 
 .pricing--dawa .pricing__period {
@@ -23,8 +63,11 @@
 }
 
 .pricing--dawa .pricing__sentence {
-	font-family: 'Homemade Apple', cursive;
+	font-family: 'Mansalva', cursive;
 	margin: 0;
+    font-weight: bold;
+	font-size: 1.8em;
+	padding: 0 0 0.5em;
 }
 
 .pricing--dawa .pricing__feature-list {
@@ -38,7 +81,7 @@
 	border-radius: 30px;
 	font-size: 1.5em;
 	padding: 0.5em 1.5em;
-	font-family: 'Homemade Apple', cursive;
+	font-family: 'Mansalva', cursive;
 	-webkit-transition: color 0.3s;
 	transition: color 0.3s;
 }
