@@ -102,7 +102,7 @@ a:focus {
 }
 
 .js .loading::after {
-	content: 'Cargando... \APor favor, activa el sonido';
+	content: 'Loading... \APlease turn on your sound';
 	line-height: 2;
 	padding: 2em 0 0 0;
 	text-align: center;
@@ -144,9 +144,61 @@ a:focus {
 	left: 2em;
 }
 
+/* Top Navigation Style */
+.codrops-links {
+	position: relative;
+	display: inline-flex;
+	justify-content: center;
+	text-align: center;
+	white-space: nowrap;
+	pointer-events: auto;
+	background: #fbce41;
+}
+
+.codrops-links::after {
+	content: '';
+	position: absolute;
+	top: 20%;
+	left: 50%;
+	width: 1px;
+	height: 60%;
+	opacity: 0.7;
+	background: #5b5b63;
+	transform: rotate(22.5deg);
+}
+
+.codrops-icon {
+	display: inline-block;
+	flex: none;
+	margin: 0.25em;
+	padding: 0.5em;
+	color: #2a2c36;
+}
+
+.codrops-icon:hover,
+.codrops-icon:focus {
+	color: #fff;
+}
+
+/* GitHub link */
+.link-github {
+	z-index: 1000;
+	display: inline-block;
+	margin: 0 0 0 auto;
+	padding: 0.75em;
+	pointer-events: auto;
+	color: #2a2c36;
+	background: #fbce41;
+}
+
+.link-github:hover,
+.link-github:focus {
+	color: #fff;
+}
+
 /* Intro title and tagline */
 .intro__title {
-	font-size: 6em;
+	font-size: 7.25em;
 	font-weight: normal;
 	font-weight: 900;
 	line-height: 0.8;
@@ -160,7 +212,7 @@ a:focus {
 	font-weight: normal;
 	max-width: 430px;
 	margin: 1vh 0 1.25em 0;
-	padding: 20px;
+	padding: 0 1em;
 	color: #38383c;
 }
 
@@ -218,7 +270,7 @@ a:focus {
 	pointer-events: none;
 }
 
-.content__inner--height {
+.content__inner--fheight {
 	height: 60vh;
 }
 
@@ -289,7 +341,7 @@ a:focus {
 
 .content__subtitle {
 	font-family: 'Arapey', serif;
-	font-size: 1.8em;
+	font-size: 2.5em;
 	font-weight: normal;
 	margin: 0.5em 0 1em;
 }
@@ -355,10 +407,6 @@ a:focus {
 
 .content--harp {
 	background: #fdecc3;
-}	
-
-.content--strings {
-	background: #cea443;
 }
 
 .content--timpani {
@@ -478,7 +526,7 @@ a:focus {
 	}
 	.intro__tagline,
 	.content__subtitle {
-		font-size: 2.5em;
+		font-size: 1.25em;
 	}
 	.content__highlight {
 		font-size: 1.75em;
