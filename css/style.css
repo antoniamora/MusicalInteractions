@@ -102,7 +102,7 @@ a:focus {
 }
 
 .js .loading::after {
-	content: 'Loading... \APlease turn on your sound';
+	content: 'Cargando... \APor favor, activa el sonido';
 	line-height: 2;
 	padding: 2em 0 0 0;
 	text-align: center;
